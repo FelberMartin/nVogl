@@ -1,0 +1,11 @@
+TODO
+
+- Endscreen
+
+- Datenbank
+	- public int signUp (String playerName)  // Wenn Spieler schon angemeldet return seinen Highscore
+																// Wenn nicht: Spieler neu eintragen Highscore 0 return highscore (0)
+	
+	- public void setHighscore ( String playerName, int score )  // Setzt Highscore von Spieler auf score
+	
+	- public HashMap<String, Integer> getHighscoreList ()  // return Hashmap mit allen playernames und ihren Highscoren 
